@@ -1,0 +1,4 @@
+Keep external files in this /resource folder.
+You can e.g. access text files with:
+`val textResource = TemplateSkill::class.java.getResourceAsStream("/file.txt")´
+Añade archivos para utilizarlos en Furhat en esta carpeta y utiliza los otros ya añadidos de ejemplo

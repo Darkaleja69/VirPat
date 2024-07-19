@@ -1,0 +1,247 @@
+(Q)-OK, ¿fiebre o escalofríos?
+(A)-No se menciona en el historial médico.
+No tiene pérdida de peso, fiebre, ni fatiga.
+-------------------------------------------
+(Q)-OK, entonces si usted se mira el codo derecho, um ¿usted nota alguna rojez o hinchazón?
+(A)-No se menciona en el historial médico.
+la zona no parece estar hinchada, rojiza, ni desalineada
+-------------------------------------------
+(Q)-Claro, ¿y el dolor se irradia hacia arriba o hacia abajo?
+(A)-No se menciona en el historial médico.
+El dolor no se irradia
+-------------------------------------------
+(Q)-OK. Um bien, y entonces ¿tiene algún tipo de dolor o molestias en alguna otra articulación o grupo muscular?
+(A)-No se menciona en el historial médico.
+El dolor no se irradia
+-------------------------------------------
+(Q)-El lado izquierdo, OK. ¿Se queda sólo en un sitio o se extiende a cualquier otro?
+(A)-La paciente experimenta dolor torácico agudo en el lado izquierdo.
+[]
+-------------------------------------------
+(Q)-OK, ¿el dolor es sordo y doloroso, o se siente más agudo?
+(A)-No se menciona en el historial médico.
+dolor torácico agudo
+-------------------------------------------
+(Q)-Más o menos igual, OK, ¿y se han vuelto más frecuentes, estos episodios de 20 a 30 minutos?
+(A)-No se menciona en el historial médico.
+se ha mantenido constante
+-------------------------------------------
+(Q)-Vale. Vale, y antes de este periodo de dos semanas, ¿había tenido algo así antes?
+(A)-No se menciona en el historial médico.
+está previamente sana
+-------------------------------------------
+(Q)-¿Tiene alguna enfermedad crónica por la que acude a su médico de cabecera?
+(A)-No se menciona en el historial médico.
+no padece enfermedades crónicas
+-------------------------------------------
+(Q)-OK, ¿tiene alguna dificultad para respirar en estos momentos?
+(A)-No se menciona en el historial médico.
+No tiene náuseas, vómitos, dificultad para respirar o fiebre
+
+Por muy literal que sea la pregunta y que esté en el texto con las mismas palabras, al no estar junto al verbo y haber otras palabras por delante no sabe responderlo.
+-------------------------------------------
+(Q)-OK, ¿y ha notado fiebre?
+(A)-No se menciona en el historial médico.
+No tiene náuseas, vómitos, dificultad para respirar o fiebre.
+
+Pasa lo mismo que el caso anterior
+-------------------------------------------
+(Q)-¿Y ha viajado a algún lugar fuera de Canadá?
+(A)-No se menciona en el historial médico.
+No ha estado en contacto con nadie enfermo ni ha viajado últimamente
+
+Al preguntar en específico sobre si ha sido a algún lugar fuera de Canadá, puede ser que no capte el ni ha viajado últimamente. También seguramente afecte el hecho de estar la información en una enumeración.
+-------------------------------------------
+(Q)-OK, entonces a continuación algunas preguntas sobre su historial médico, ¿ha sido diagnosticado con alguna condición médica en el pasado?
+(A)-No se menciona en el historial médico.
+Tuvo un episodio similar hace unos años, que desapareció por si solo
+-------------------------------------------
+(Q)-Sé que ha dicho que no va al médico de cabecera para nada regularmente, pero sólo quiero comprobar un par de cosas específicas como ¿le han dicho alguna vez que tiene la tensión alta?
+(A)-No se menciona en el historial médico.
+no tiene antecedentes de acidez estomacal, ni de tensión o colesterol altos
+-------------------------------------------
+(Q)-Vale, me alegro de oírlo. ¿Y alguna vez ha tenido problemas de tensión?
+(A)-No se menciona en el historial médico.
+no tiene antecedentes de acidez estomacal, ni de tensión o colesterol altos
+
+En el caso de que preguntara por la acidez estomacal, sí que sabría responder. Sin embargo, si preguntas por la tensión o colesterol no sabe responder porque está más alejado de tiene problemas de ...
+-------------------------------------------
+(Q)-OK. Bien, para resumir lo que hemos hablado, en las últimas dos semanas, ha empezado a tener estos episodios de 20 a 30 minutos de dolor en el pecho, en el lado izquierdo, más agudo, ¿es correcto?
+(A)-Es correcto.
+experimenta dolor torácico agudo en el lado izquierdo desde hace dos semanas
+
+Al hacer una pregunta muy extensa, y algo que no es una pregunta tan directa sobre el historial como el resto, se confunde y responde a si es correcto solo, en vez de utilizar el historial.
+-------------------------------------------
+(Q)-OK, ¿entonces no hay sangre en su emesis uh o ningún vómito en absoluto?
+(A)-No se menciona en el historial médico.
+ha tenido náuseas, pero sin llegar a vomitar
+
+ha tenido náuseas, pero sin llegar a vomitar
+-------------------------------------------
+(Q)-OK, entonces a continuación algunas preguntas sobre su historial médico, ¿ha sido diagnosticado con alguna condición médica en el pasado?
+(A)-No se menciona en el historial médico.
+Tuvo un episodio similar hace unos años, que desapareció por si solo
+
+En el mismo chat de las anteriores respuestas, respondió bien y en un chat nuevo no.
+-------------------------------------------
+(Q)-Vale, ¿y alguna alergia a medicamentos?
+(A)-No tiene alergias a medicamentos.
+No tiene alergias.
+
+En un chat después de 10 preguntas se inventa el "a medicamentos", pero en uno nuevo no lo dice
+-------------------------------------------
+(Q)-(Q)-OK, ¿y alguna historia familiar de enfermedad de la vesícula biliar o enfermedad cardiovascular en la familia?
+(A)-La madre de la paciente tiene cálculos biliares y el padre murió de un derrame cerebral a los 60 años.
+El padre de la paciente murió de un derrame cerebral a los 60 años y la madre de la paciente tiene cálculos biliares
+
+Curiosamente reescribe en diferente orden la frase.
+-------------------------------------------
+(Q)-Vale, ¿y siente la necesidad de reducir su consumo de alcohol?
+(A)-I (No se menciona en el historial médico).
+no se siente culpable por su forma de beber
+
+Lo responde como si fuera una afirmación directa. En otras pruebas responde sin la 'I'. Sin embargo, si se le pregunta sobre el consumo de alcohol sí que habla sobre que no se siente culpable.
+-------------------------------------------
+(Q)-OK, ¿alguna vez le ha molestado que la gente critique su forma de beber?
+(A)-No se menciona en el historial médico.
+no se siente culpable por su forma de beber
+
+No realiza la asociación, tras varias pruebas responde correctamente, tras probar en chats nuevos.
+-------------------------------------------
+(Q)-Uhm no, en este momento, solo quiero tener una idea de como se siente sobre sus niveles de bebida en este momento y la siguiente pregunta sería, ¿alguna vez ha sentido la necesidad de tomar una copa por la mañana temprano?
+(A)-No se menciona en el historial médico.
+no bebe por la mañana
+
+En general las preguntas tan largas, que tienen frases largas suele fallar, respondiendo esto o 'I'
+-------------------------------------------
+(Q)-Buenos días, señor.
+(A)-La queja principal es que desde hace 4-5 meses, el paciente sufre un dolor sordo de espalda que empeora progresivamente.
+I
+
+Después de numerosas pruebas he decidido añadir el caso a las instrucciones.
+-------------------------------------------
+(Q)-Vale, ¿hasta el cuello, supongo, y hasta la parte baja de la espalda?
+(A)-No se menciona en el historial médico.
+desde la mitad de la espalda hasta la parte baja
+
+La anterior pregunta tiene la misma respuesta, por lo que puede ser que al querer hablar sobre el cuello, no encuentre la respuesta porque no habla literalmente del cuello.
+-------------------------------------------
+(Q)-Vale, y cuando empezó, ¿hubo algo que causara el dolor de espalda? ¿Algún tipo de trauma o lesión, algo en lo que pueda pensar que pueda haberle llevado a esto?
+(A)-No se menciona en el historial médico.
+no ha tenido traumatismos recientes
+
+Cuando se hacen más de una pregunta dentro de la misma, no es capaz de responder correctamente.
+-------------------------------------------
+(Q)-Ok, ¿y ha estado enfermo últimamente con alguna infección viral o bacteriana?
+(A)-No se menciona en el historial médico.
+tuvo diarrea hace unos meses por una supuesta intoxicación alimentaria
+
+Puede que no asocie infección viral o bacteriana con la intoxicación alimentaria
+-------------------------------------------
+(Q)-Vale, ¿y alguno de los dos tiene antecedentes de alguna ITS?
+(A)-No se menciona en el historial médico.
+sin historial de ITS
+
+Está en realidad entre paréntesis como una aclaración, puede ser el problema
+-------------------------------------------
+Q)-Vale, bien, ¿y su compañera está bien o tiene algún síntoma?
+(A)-No se menciona en el historial médico.
+Su entorno no parece tener síntomas similares
+
+Si la pregunta en vez de compañera fuera entorno sí la responde correctamente.
+------------------------------------------
+(Q)-Vale, de acuerdo, y por lo demás, ¿está sano en general o tiene alguna enfermedad?
+(A)-No se menciona en el historial médico.
+tiene dolores ocasionales en las manos y en la rodilla derecha desde hace 6 meses, pero no ha tenido traumatismos recientes. Tiene asma y tuvo diarrea hace unos meses
+
+En preguntas más generales no suele saber responder.
+------------------------------------------
+(Q)-Vale, de acuerdo, esas eran algunas de las preguntas que tenía. Ahora voy a hacerle rápidamente algunas preguntas específicas. ¿Ha notado algún tipo de hinchazón en las zonas que le duelen o enrojecimiento o algo parecido?
+(A)-No presenta ninguna dificultad para respirar.
+Tampoco tiene sarpullidos, rojeces, hinchazones, ni erupciones
+
+------------------------------------------
+(Q)-Ya veo, ¿este dolor empezó justo después de caerse en las escaleras?
+(A)-No se menciona en el historial médico.
+comenzó hace tres días tras una caída
+
+Este caso es una excepción, ya que tiene sentido que no responda. En el texto no se menciona nada de unas escaleras y al ser tan específica la pregunta decide no responder. Si quitamos las escaleras de la pregunta, sí responde bien.
+------------------------------------------
+(Q)-OK. ¿Y el dolor ha mejorado o empeorado?
+(A)-El dolor empeora con el movimiento.
+Ha presentado una leve mejora con Advil durante unas horas
+
+Entre las dos opciones elige solo una.
+------------------------------------------
+(Q)-Bien, ¿siente el dolor en algún otro sitio aparte de la rodilla derecha?
+(A)-No se menciona en el historial médico.
+presenta dolor sordo en la rodilla y la pantorrilla derechas
+
+------------------------------------------
+(Q)-OK, ¿ha habido algo que haya empeorado el dolor?
+(A)-No se menciona en el historial médico.
+Ha presentado una leve mejora con Advil durante unas horas
+
+Es normal que no encuentre la respuesta, porque el texto no la da. La respuesta que tenemos no responde a la pregunta.
+------------------------------------------
+(Q)-OK. Uhm. Y. Si, ¿ha tenido algún otro, uh, como síntomas asociados con la rodilla derecha y el dolor de pantorrilla?
+(A)-No se menciona en el historial médico.
+La caída también ocasionó rasguños en las manos, pero no hubo golpes en la cabeza
+
+No creo que la pregunta esté correctamente formulada.
+------------------------------------------
+(Q)-OK, ¿y ha tenido palpitaciones o sensación de que su corazón se acelera?
+(A)-No ha habido palpitaciones ni sensación de que su corazón se acelera.
+No ha habido mareo, aturdimiento o palpitaciones
+
+Extraño que se invente "ni sensación de que su corazón se acelera", ya que no está en el historial.
+-----------------------------------------
+(Q)-OK, ¿ha tenido algún cambio en sus movimientos intestinales como diarrea o estreñimiento?
+(A)-No ha habido cambios en los movimientos intestinales, como diarrea o estreñimiento.  
+No presenta cambios en los movimientos intestinales
+
+La respuesta depende mucho del contexto, en muchas pruebas responde "No se menciona en el historial médico". Responde así porque las anteriores preguntas las ha respondido de forma igual.
+-----------------------------------------
+(Q)-Y. Um. En el pasado, ¿le han diagnosticado alguna enfermedad?
+(A)-No se menciona en el historial médico.
+tiene colesterol alto e hipertensión
+
+Está dentro de antecedentes médicos personales, por lo que debería reconocerlo.
+-----------------------------------------
+(Q)-OK, y eh, ¿ha estado embarazada en otras ocasiones en el pasado?
+(A)-No se menciona en el historial médico.
+La paciente no ha tenido trombosis ni abortos espontáneos
+
+En el texto no se menciona como tal si ha estado embarazada, sabemos que tiene una hija pero al no mencionarse literalmente no responde.
+-----------------------------------------
+(Q)-OK, bien entonces. Oh, y uh en la familia ¿hay algún antecedente de afecciones cardíacas o pulmonares?
+(A)-Se desconoce si hay antecedentes de coágulos sanguíneos en la familia.   
+La madre de la paciente tuvo un derrame cerebral a finales de los 60 años. El padre de la paciente está sano
+
+En este caso debería responder "No se menciona en el historial médico", ya que el derrame cerebral no es una afección cardiaca o pulmonar.
+-----------------------------------------
+(Q)-OK. Y. ¿Y esto empezó justo después de la patada en el fútbol?
+(A)-No se menciona en el historial médico.
+comenzó hace dos días tras una lesión de fútbol
+
+Puede confundir la patada ya que solo se menciona lesión en el texto.
+-----------------------------------------
+(Q)-OK. Um. Y. Uh, um bien. ¿Ha experimentado algún otro síntoma?
+(A)-No se menciona en el historial médico.
+No presenta dolor de cabeza ni cambios sensoriales. Tampoco síntomas oculares ni goteo nasal o dolor de garganta. No padece tos, sibilancias, ni falta de aire. Tampoco sufre de dolor en el pecho ni taquicardia. No ha sufrido fatiga, mareos o desmayos.  No ha sufrido cambios de apetito ni vómitos o náuseas, tampoco ha habido pérdidas de peso inesperadas. No presenta dolor abdominal, ni cambios en los hábitos intestinales o urinarios. No ha sufrido de erupciones ni tiene dolor en otras articulaciones
+
+En preguntas tan generales no suele saber qué responder.
+-----------------------------------------
+(Q)-OK. Y, desde entonces, ¿fue capaz de ponerse de pie o no fue capaz de soportar ningún peso?
+(A)-Empeora al apoyarse sobre él.
+puede moverlo y caminar cortos periodos de tiempo
+
+Están ambas respuestas en la misma frase, por lo que pueden ser las dos respuestas correctas.
+-----------------------------------------
+(Q)-OK, ¿y trabaja actualmente?
+(A)-I "vive solo en un apartamento."
+Ingeniero de Software
+
+Al no mencionar en el texto que "trabaja de " Ingeniero de Software, no es capaz de responderlo.
+-----------------------------------------
+            

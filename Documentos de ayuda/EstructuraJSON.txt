@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "context": "Información del paciente...",
+          "qas": [
+            {
+              "question": "3#Vale, ¿has tenido algún dolor en el pecho?",
+              "id": 1031103,
+              "is_impossible": true,
+              "answers": []
+            },
+            {
+              "question": "2#OK, ¿desde cuándo la tienes?",
+              "id": 1031105,
+              "is_impossible": false,
+              "answers": [
+                {
+                  "text": "desde hace 3 meses",
+                  "answer_start": 118
+                }
+              ]
+            },
+            {
+              "question": "1#Buenos días señora. ¿Qué te trae hoy por la clínica?",
+              "id": 1031107,
+              "is_impossible": false,
+              "answers": [
+                {
+                  "text": "tiene tos",
+                  "answer_start": 108
+                }
+              ]
+            },
+            ...
+            (Otras preguntas y respuestas aquí)
+            ...
+          ]
+        }
+      ],
+      "title": "CAN doc:1521655"
+    },
+    (Otros objetos JSON aquí)
+  ]
+}
+

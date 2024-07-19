@@ -1,0 +1,2473 @@
+El número de la entrevista es: 17
+Información al paciente: Paciente estudiante de ingeniería de 25 años de edad, trabaja como cartero a tiempo parcial. Vive con sus padres.
+
+La queja principal: La paciente presenta un dolor agudo en el pecho desde hace tres días sobre el corazón. El dolor empeora al toser o al tumbarse, y mejora al inclinarse hacia delante. Los episodios duran unos segundos antes de desaparecer, el dolor a veces se irradia al cuello y lo califica en un 6 sobre 10. No tiene otros síntomas como dificultad para respirar o mareos. Tampoco palpitaciones, dolor de cabeza, náuseas ni fiebre. No ha notado debilidad
+
+Antecedentes médicos personales: El paciente no tiene afecciones médicas, alergias ni cirugías previas y no había estado en esta situacíon anteriormente. El paciente toma ocasionalmente Tylenol pero no toma otros medicamentos. El paciente tuvo gripe con fiebre, secreción nasal y tos hace una semana, pero ahora se encuentra mejor. No ha tenido heridas recientes en la zona. Bebe ocasionalmente, pero no fuma ni consume drogas.
+
+El historial médico familiar: El padre de la paciente tuvo un ataque al corazón hace dos semanas y falleció.
+
+Todos los diagnósticos posibles:
+1. Disección aórtica
+2. Aneurisma aórtico
+3. Embolia pulmonar
+4. Infarto de miocardio (ataque al corazón)
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio:
+1. ECG
+2. Análisis de sangre
+
+-----------------------------------------
+(Q)-¿Qué le trae hoy por aquí?
+(A)-La paciente presenta un dolor agudo en el pecho desde hace tres días sobre el corazón
+(Real answer)un dolor agudo en el pecho
+{'bleu': 0.35355339059327373, 'precisions': [0.375, 0.3333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 2.6666666666666665, 'translation_length': 16, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-Oh wow, si um eso debe ser realmente aterrador. ¿Cuándo empezó este dolor?
+(A)-(A)-La paciente presenta un dolor agudo en el pecho desde hace tres días sobre el corazón
+(Real answer)desde hace tres días
+{'bleu': 0.1873171623163388, 'precisions': [0.21052631578947367, 0.16666666666666666], 'brevity_penalty': 1.0, 'length_ratio': 4.75, 'translation_length': 19, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-Hace tres días, vale, ¿y dónde lo siente exactamente en el pecho?
+(A)-(A)-La paciente presenta un dolor agudo en el pecho desde hace tres días sobre el corazón
+(Real answer)en el pecho
+{'bleu': 0.13245323570650439, 'precisions': [0.15789473684210525, 0.1111111111111111], 'brevity_penalty': 1.0, 'length_ratio': 6.333333333333333, 'translation_length': 19, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-Vale, ¿y qué tipo de dolor es? ¿Es más como un dolor sordo por presión, o es un dolor agudo? ¿Cómo lo describiría?
+(A)-(A)-El dolor empeora al toser o al tumbarse, y mejora al inclinarse hacia delante. Los episodios duran unos segundos antes de desaparecer, el dolor a veces se irradia al cuello y lo califica en un 6 sobre 10
+(Real answer)un dolor agudo
+{'bleu': 0.0, 'precisions': [0.045454545454545456, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 14.666666666666666, 'translation_length': 44, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-Un dolor agudo, vale. Um, así que empezó hace tres días, ¿ha ido y venido o ha sido constante?
+(A)-No se menciona en el historial médico
+(Real answer)empeora al toser o al tumbarse, y mejora al inclinarse hacia delante
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 0.42437284567694994, 'length_ratio': 0.5384615384615384, 'translation_length': 7, 'reference_length': 13}
+
+-----------------------------------------
+(Q)-OK, ¿el dolor aparece cuando está haciendo alguna actividad o cuando aparece el dolor normalmente?
+(A)-El dolor empeora al toser o al tumbarse, y mejora al inclinarse hacia delante
+(Real answer)empeora al toser o al tumbarse, y mejora al inclinarse hacia delante
+{'bleu': 0.8618916073713346, 'precisions': [0.8666666666666667, 0.8571428571428571], 'brevity_penalty': 1.0, 'length_ratio': 1.1538461538461537, 'translation_length': 15, 'reference_length': 13}
+
+-----------------------------------------
+(Q)-OK, y um, ¿mejora con algún cambio de posición, o cualquier cosa que haga que le ayude?
+(A)-(A)-El dolor empeora al toser o al tumbarse, y mejora al inclinarse hacia delante
+(Real answer)mejora al inclinarse hacia delante
+{'bleu': 0.25565499628245686, 'precisions': [0.2777777777777778, 0.23529411764705882], 'brevity_penalty': 1.0, 'length_ratio': 3.6, 'translation_length': 18, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK, ¿y le ha pasado esto antes?
+(A)-No se menciona en el historial médico
+(Real answer)no había estado en esta situacíon anteriormente
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Bien, y en una escala del 1 al 10, siendo 1 el menor dolor sentido y 10 el peor, ¿en cuánto lo puntuaría?
+(A)-(A)-El dolor a veces se irradia al cuello y lo califica en un 6 sobre 10
+(Real answer)lo califica en un 6 sobre 10
+{'bleu': 0.35043832202523123, 'precisions': [0.3684210526315789, 0.3333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 2.7142857142857144, 'translation_length': 19, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿y el dolor se mueve a cualquier parte de su pecho o se queda en el mismo lugar?
+(A)-El dolor a veces se irradia al cuello
+(Real answer)a veces se irradia al cuello
+{'bleu': 0.7319250547113999, 'precisions': [0.75, 0.7142857142857143], 'brevity_penalty': 1.0, 'length_ratio': 1.3333333333333333, 'translation_length': 8, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK, ¿y tiene algún otro síntoma, como dificultad para respirar, mareos, algo así?
+(A)-No tiene otros síntomas como dificultad para respirar o mareos
+(Real answer)No tiene otros síntomas como dificultad para respirar o mareos
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 10, 'reference_length': 10}
+
+-----------------------------------------
+(Q)-OK ¿alguna palpitación?
+(A)-No tiene palpitaciones, dolor de cabeza, náuseas ni fiebre
+(Real answer)Tampoco palpitaciones
+{'bleu': 0.0, 'precisions': [0.09090909090909091, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 5.5, 'translation_length': 11, 'reference_length': 2}
+
+-----------------------------------------
+(Q)-Bien, y aparte de eso, ¿ha tenido algún otro síntoma aparte del dolor?
+(A)-(A)-No tiene otros síntomas como dificultad para respirar o mareos
+(Real answer)Tampoco palpitaciones, dolor de cabeza, náuseas ni fiebre
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.3, 'translation_length': 13, 'reference_length': 10}
+
+-----------------------------------------
+(Q)-Vale, ¿ha probado alguna medicación que le haya aliviado el dolor?
+(A)-(A)-El paciente toma ocasionalmente Tylenol pero no toma otros medicamentos
+(Real answer)N
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.8571428571428572, 'translation_length': 13, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK.
+(A)-I I I I
+(Real answer)I
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 4, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-Muy bien, um, ¿alguna herida reciente en la zona como alguna caída o algo así?
+(A)-No se menciona en el historial médico
+(Real answer)no tiene afecciones médicas, alergias ni cirugías previas
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 0.751477293075286, 'length_ratio': 0.7777777777777778, 'translation_length': 7, 'reference_length': 9}
+
+-----------------------------------------
+(Q)-¿Algún dolor de cabeza, náuseas o vómitos, fiebre o escalofríos? ¿Alguno de esos sintomas?
+(A)-No tiene palpitaciones, dolor de cabeza, náuseas ni fiebre
+(Real answer)Tampoco palpitaciones, dolor de cabeza, náuseas ni fiebre
+{'bleu': 0.8090398349558905, 'precisions': [0.8181818181818182, 0.8], 'brevity_penalty': 1.0, 'length_ratio': 1.1, 'translation_length': 11, 'reference_length': 10}
+El número de la entrevista es: 17
+Información al paciente: Paciente estudiante de ingeniería de 25 años de edad, trabaja como cartero a tiempo parcial. Vive con sus padres.
+
+La queja principal: La paciente presenta un dolor agudo en el pecho desde hace tres días sobre el corazón. El dolor empeora al toser o al tumbarse, y mejora al inclinarse hacia delante. Los episodios duran unos segundos antes de desaparecer, el dolor a veces se irradia al cuello y lo califica en un 6 sobre 10. No tiene otros síntomas como dificultad para respirar o mareos. Tampoco palpitaciones, dolor de cabeza, náuseas ni fiebre. No ha notado debilidad
+
+Antecedentes médicos personales: El paciente no tiene afecciones médicas, alergias ni cirugías previas y no había estado en esta situacíon anteriormente. El paciente toma ocasionalmente Tylenol pero no toma otros medicamentos. El paciente tuvo gripe con fiebre, secreción nasal y tos hace una semana, pero ahora se encuentra mejor. No ha tenido heridas recientes en la zona. Bebe ocasionalmente, pero no fuma ni consume drogas.
+
+El historial médico familiar: El padre de la paciente tuvo un ataque al corazón hace dos semanas y falleció.
+
+Todos los diagnósticos posibles:
+1. Disección aórtica
+2. Aneurisma aórtico
+3. Embolia pulmonar
+4. Infarto de miocardio (ataque al corazón)
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio:
+1. ECG
+2. Análisis de sangre
+
+-----------------------------------------
+(Q)-¿Qué le trae hoy por aquí?
+(A)-La paciente presenta un dolor agudo en el pecho desde hace tres días sobre el corazón
+(Real answer)un dolor agudo en el pecho
+{'bleu': 0.35355339059327373, 'precisions': [0.375, 0.3333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 2.6666666666666665, 'translation_length': 16, 'reference_length': 6}
+El número de la entrevista es: 12
+Información al paciente: Adulto de mediana edad, trabaja como cajero y vive solo en un apartamento.
+
+La queja principal: El paciente se presenta con una historia de dos meses de disnea de esfuerzo progresiva y ortopnea, que ha estado afectando a su rutina. También tiene otros síntomas como tos productiva de esputo espumoso y fatiga. Hay cierta hinchazón al rededor de sus piernas desde hace 2 meses. No tiene dolor de garganta, secreción nasal, dolor de pecho, ni mareos. Tampoco presenta náuseas, vómitos, fiebre, ni sudores nocturnos. Tampoco ha tenido cambios en sus movimientos intestinales. No ha tosido sangre, no ha tenido cambios de apetito, ni ha perdido peso. No ha tenido más problemas para dormir a parte de la disnea
+
+Antecedentes médicos personales: El paciente tiene antecedentes de hipertensión, diabetes y colesterol alto. El paciente tiene antecedentes de un infarto de miocardio previo por el que recibió un stent, después de ello no ha vuelto a presentar síntomas de tener otro infarto. Toma aspirina, ramipril y simvastatina. No tiene alergias conocidas. No ha habido cambios en su vida como viajes, hospitalizaciones, cirujías o diagnosticos recientes y no había tenido episodios parecidos a este con anterioridad. No parece haber estado expuesto a la tuberculosis, al polvo, moho, ni a humos. No hay animales en su casa. Antes fumaba 10 cigarrillos al día durante 40 años. No consume drogas ni alcohol. Su dieta no es equilibrada.
+
+Historial médico familiar: El padre del paciente murió de un ataque al corazón a los 60 años.
+
+Todos los diagnósticos posibles: 
+1. Insuficiencia cardíaca congestiva
+
+Todos los estudios, evaluaciones y pruebas de laboratorio específicos posibles: 
+1. Ecocardiograma
+2. Radiografía de tórax
+3. BNP
+
+-----------------------------------------
+(Q)-¿Qué te trae por aquí hoy?
+(A)-El paciente se presenta con una historia de dos meses de disnea de esfuerzo progresiva y ortopnea, que ha estado afectando a su rutina
+(Real answer)dos meses de disnea de esfuerzo progresiva y ortopnea
+{'bleu': 0.34641016151377546, 'precisions': [0.36, 0.3333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 2.7777777777777777, 'translation_length': 25, 'reference_length': 9}
+
+-----------------------------------------
+(Q)-Bien, ¿y cuándo empezaste a sentirte sin aliento?
+(A)-El paciente se presenta con una historia de dos meses de disnea de esfuerzo progresiva y ortopnea, que ha estado afectando a su rutina
+(Real answer)una historia de dos meses
+{'bleu': 0.1825741858350554, 'precisions': [0.2, 0.16666666666666666], 'brevity_penalty': 1.0, 'length_ratio': 5.0, 'translation_length': 25, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK, ¿y apareció gradualmente o de repente?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK. Y, sientes, uh, ¿con qué frecuencia te sientes sin aliento?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Vale, ¿y eras capaz de caminar normalmente más de 50 metros antes de esos dos meses?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK. ¿Y tienes algún otro síntoma como tos o dolor en el pecho?
+(A)-El paciente también tiene otros síntomas como tos productiva de esputo espumoso y fatiga. No tiene dolor de garganta, secreción nasal, dolor de pecho, ni mareos
+(Real answer)tiene otros síntomas como tos productiva de esputo espumoso y fatiga. Hay cierta hinchazón al rededor de sus piernas
+{'bleu': 0.40542300883392646, 'precisions': [0.43333333333333335, 0.3793103448275862], 'brevity_penalty': 1.0, 'length_ratio': 1.5, 'translation_length': 30, 'reference_length': 20}
+
+-----------------------------------------
+(Q)-OK, ¿pero nada como constante?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿y tienes alguna tos húmeda o alguna tos productiva o estás produciendo como esputo o flema?
+(A)-El paciente también tiene otros síntomas como tos productiva de esputo espumoso y fatiga. No tiene dolor de garganta, secreción nasal, dolor de pecho, ni mareos
+(Real answer)tiene otros síntomas como tos productiva de esputo espumoso
+{'bleu': 0.2876779808912305, 'precisions': [0.3, 0.27586206896551724], 'brevity_penalty': 1.0, 'length_ratio': 3.3333333333333335, 'translation_length': 30, 'reference_length': 9}
+
+-----------------------------------------
+(Q)-OK, ¿y tu disnea ha empeorado en los últimos dos meses?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, y has mencionado que el esfuerzo lo empeora, pero ¿hay algo más como salir al exterior o la exposición a algún producto químico que lo empeore?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿y qué hay de los cambios de posición? ¿Tumbarse en horizontal lo empeora?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Bien, ¿y alguna vez te has despertado en mitad de la noche para recuperar el aliento?
+(A)-No se menciona en el historial médico
+(Real answer)No ha tenido más problemas para dormir a parte de la disnea
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 0.48954165955695317, 'length_ratio': 0.5833333333333334, 'translation_length': 7, 'reference_length': 12}
+
+-----------------------------------------
+(Q)-No, de acuerdo. ¿Y cuándo sientes más la falta de aire? ¿Es más durante el día o por la noche?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Bien, y en cuanto al número de tramos de escaleras que puedes subir antes de empezar a sentir que te falte el aire, ¿tienes algún número?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Tres o cuatro escalones, vale. ¿Y ha ocurrido algo nuevo en tu vida recientemente? ¿Algún nuevo diagnóstico médico recientemente? ¿O algún viaje que hayas hecho antes de empezar a tener estos síntomas?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Bien, y antes de los dos meses, ¿has tenido alguna experiencia similar?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK. Y, ¿algo lo mejora? ¿Algún cambio de posición hace que la disnea desaparezca?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Bien, ¿y tienes algún otro síntoma como dolor de garganta, secreción nasal, dolor en el pecho, mareos, algo así?
+(A)-El paciente también tiene otros síntomas como tos productiva de esputo espumoso y fatiga. No tiene dolor de garganta, secreción nasal, dolor de pecho, ni mareos
+(Real answer)No tiene dolor de garganta, secreción nasal, dolor de pecho, ni mareos. 
+{'bleu': 0.5074162634049248, 'precisions': [0.5333333333333333, 0.4827586206896552], 'brevity_penalty': 1.0, 'length_ratio': 1.875, 'translation_length': 30, 'reference_length': 16}
+
+-----------------------------------------
+(Q)-OK. ¿Has viajado recientemente fuera del país?
+(A)-No se menciona en el historial médico
+(Real answer)No ha habido cambios en su vida como viajes
+{'bleu': 0.0, 'precisions': [0.2857142857142857, 0.0], 'brevity_penalty': 0.751477293075286, 'length_ratio': 0.7777777777777778, 'translation_length': 7, 'reference_length': 9}
+
+-----------------------------------------
+(Q)-¿Has tenido alguna operación recientemente?
+(A)-No se menciona en el historial médico
+(Real answer)No ha habido cambios en su vida como viajes, hospitalizaciones, cirujías o diagnosticos recientes
+{'bleu': 0.0, 'precisions': [0.2857142857142857, 0.0], 'brevity_penalty': 0.27645304662956444, 'length_ratio': 0.4375, 'translation_length': 7, 'reference_length': 16}
+
+-----------------------------------------
+(Q)-OK, ¿algún dolor de cabeza náuseas o vómitos?
+(A)-No se menciona en el historial médico
+(Real answer)Tampoco presenta náuseas, vómitos, fiebre, ni sudores nocturnos
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 0.5647181220077593, 'length_ratio': 0.6363636363636364, 'translation_length': 7, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-OK, ¿alguna fiebre o escalofríos o sudores nocturnos?
+(A)-No presenta náuseas, vómitos, fiebre, ni sudores nocturnos
+(Real answer)Tampoco presenta náuseas, vómitos, fiebre, ni sudores nocturnos
+{'bleu': 0.9045340337332909, 'precisions': [0.9090909090909091, 0.9], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 11, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-OK. ¿Te sientes cada vez más fatigado a lo largo del día?
+(A)-El paciente también tiene otros síntomas como tos productiva de esputo espumoso y fatiga
+(Real answer)N
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 2.0, 'translation_length': 14, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK. ¿Y algún cambio en tus movimientos intestinales?
+(A)-No se menciona en el historial médico
+(Real answer)Tampoco ha tenido cambios en sus movimientos intestinales
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 0.8668778997501817, 'length_ratio': 0.875, 'translation_length': 7, 'reference_length': 8}
+
+-----------------------------------------
+(Q)-OK, ¿y algún dolor en el pecho en los últimos dos meses?
+(A)-El paciente también tiene otros síntomas como tos productiva de esputo espumoso y fatiga. No tiene dolor de garganta, secreción nasal, dolor de pecho, ni mareos
+(Real answer)No tiene dolor de garganta, secreción nasal, dolor de pecho, ni mareos
+{'bleu': 0.4913036844405175, 'precisions': [0.5, 0.4827586206896552], 'brevity_penalty': 1.0, 'length_ratio': 2.0, 'translation_length': 30, 'reference_length': 15}
+
+-----------------------------------------
+(Q)-OK. ¿Alguna hinchazón en tus piernas, tobillos, o en tus manos y brazos?
+(A)-Sí, hay cierta hinchazón al rededor de sus piernas desde hace 2 meses
+(Real answer)Hay cierta hinchazón al rededor de sus piernas desde hace 2 meses
+{'bleu': 0.7774288420142415, 'precisions': [0.7857142857142857, 0.7692307692307693], 'brevity_penalty': 1.0, 'length_ratio': 1.1666666666666667, 'translation_length': 14, 'reference_length': 12}
+
+-----------------------------------------
+(Q)-OK, y uh, ¿donde, donde tienes esta hinchazón?
+(A)-Sí, hay cierta hinchazón al rededor de sus piernas desde hace 2 meses
+(Real answer)al rededor de sus piernas
+{'bleu': 0.33149677206589795, 'precisions': [0.35714285714285715, 0.3076923076923077], 'brevity_penalty': 1.0, 'length_ratio': 2.8, 'translation_length': 14, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK, ¿y cuándo has notado esto por primera vez?
+(A)-No se menciona en el historial médico
+(Real answer)desde hace 2 meses
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.75, 'translation_length': 7, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-OK. ¿Has notado algún tipo de fiebre?
+(A)-No presenta náuseas, vómitos, fiebre, ni sudores nocturnos
+(Real answer)Tampoco presenta náuseas, vómitos, fiebre, ni sudores nocturnos
+{'bleu': 0.9045340337332909, 'precisions': [0.9090909090909091, 0.9], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 11, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-OK. ¿Ha estado en contacto con alguien que haya estado enfermo recientemente?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿y has estado tosiendo sangre?
+(A)-No se menciona en el historial médico
+(Real answer)No ha tosido sangre
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.75, 'translation_length': 7, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-OK, ¿has perdido peso?
+(A)-No ha tosido sangre, no ha tenido cambios de apetito, ni ha perdido peso
+(Real answer)no ha tenido cambios de apetito, ni ha perdido peso
+{'bleu': 0.67700320038633, 'precisions': [0.6875, 0.6666666666666666], 'brevity_penalty': 1.0, 'length_ratio': 1.4545454545454546, 'translation_length': 16, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-¿Sudores nocturnos o escalofríos?
+(A)-No presenta náuseas, vómitos, fiebre, ni sudores nocturnos
+(Real answer)Tampoco presenta náuseas, vómitos, fiebre, ni sudores nocturnos
+{'bleu': 0.9045340337332909, 'precisions': [0.9090909090909091, 0.9], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 11, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-Bien, aparte de la disnea al acostarse, ¿algún otro problema con el sueño?
+(A)-No ha tenido más problemas para dormir a parte de la disnea
+(Real answer)No ha tenido más problemas para dormir a parte de la disnea
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 12, 'reference_length': 12}
+
+-----------------------------------------
+(Q)-¿Algún cambio en tu apetito?
+(A)-No ha tosido sangre, no ha tenido cambios de apetito, ni ha perdido peso
+(Real answer)no ha tenido cambios de apetito
+{'bleu': 0.35355339059327373, 'precisions': [0.375, 0.3333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 2.6666666666666665, 'translation_length': 16, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK, ¿has tenido alguna infección reciente como un resfriado?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿alguna exposición a la tuberculosis en el pasado?
+(A)-No se menciona en el historial médico
+(Real answer)No parece haber estado expuesto a la tuberculosis
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 0.8668778997501817, 'length_ratio': 0.875, 'translation_length': 7, 'reference_length': 8}
+
+-----------------------------------------
+(Q)-OK, ¿alguna exposición a humos o polvo en tu casa o entorno de trabajo?
+(A)-No se menciona en el historial médico
+(Real answer)No parece haber estado expuesto a la tuberculosis, al polvo, moho, ni a humos
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 0.23965103644177574, 'length_ratio': 0.4117647058823529, 'translation_length': 7, 'reference_length': 17}
+
+-----------------------------------------
+(Q)-OK, ¿hay animales o mascotas en la casa?
+(A)-No hay animales en su casa
+(Real answer)No hay animales en su casa
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 6, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK, y en cuanto a tu historial médico, ¿te ha dicho alguien que tengas algo como EPOC o algún problema cardiovascular como hipertensión, colesterol?
+(A)-El paciente tiene antecedentes de hipertensión, diabetes y colesterol alto
+(Real answer)El paciente tiene antecedentes de hipertensión, diabetes y colesterol alto
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 11, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-Vale, ¿y tomas algún medicamento para esto?
+(A)-El paciente toma aspirina, ramipril y simvastatina
+(Real answer)N
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.1428571428571428, 'translation_length': 8, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿y has tenido algún dolor en el pecho o ataque al corazón en el pasado?
+(A)-El paciente tiene antecedentes de un infarto de miocardio previo por el que recibió un stent, después de ello no ha vuelto a presentar síntomas de tener otro infarto
+(Real answer)tiene antecedentes de un infarto de miocardio previo
+{'bleu': 0.2537081317024625, 'precisions': [0.26666666666666666, 0.2413793103448276], 'brevity_penalty': 1.0, 'length_ratio': 3.75, 'translation_length': 30, 'reference_length': 8}
+
+-----------------------------------------
+(Q)-Bien, ¿y recuerdas lo que te hicieron para el infarto?
+(A)-El paciente tiene antecedentes de un infarto de miocardio previo por el que recibió un stent, después de ello no ha vuelto a presentar síntomas de tener otro infarto
+(Real answer)recibió un sten
+{'bleu': 0.04794633014853841, 'precisions': [0.06666666666666667, 0.034482758620689655], 'brevity_penalty': 1.0, 'length_ratio': 10.0, 'translation_length': 30, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-OK, ¿y desde entonces has estado tomando estos medicamentos?
+(A)-El paciente toma aspirina, ramipril y simvastatina
+(Real answer)Toma aspirina, ramipril y simvastatina
+{'bleu': 0.5976143046671968, 'precisions': [0.625, 0.5714285714285714], 'brevity_penalty': 1.0, 'length_ratio': 1.3333333333333333, 'translation_length': 8, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK, y después de que te controlaran el infarto, ¿has tenido síntomas similares a cuando tuviste el infarto?
+(A)-Después de ello no ha vuelto a presentar síntomas de tener otro infarto
+(Real answer)después de ello no ha vuelto a presentar síntomas de tener otro infarto
+{'bleu': 0.9198662110077999, 'precisions': [0.9230769230769231, 0.9166666666666666], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 13, 'reference_length': 13}
+
+-----------------------------------------
+(Q)-¿Nada parecido? OK. ¿Tienes alergia a algún medicamento?
+(A)-No hay alergias conocidas
+(Real answer)No tiene alergias conocidas
+{'bleu': 0.49999999999999994, 'precisions': [0.75, 0.3333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 4, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-¿Alguna alergia ambiental?
+(A)-No se menciona en el historial médico
+(Real answer)No tiene alergias conocidas
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.75, 'translation_length': 7, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-OK, ¿y has tenido alguna cirugía en el pasado?
+(A)-No se menciona en el historial médico
+(Real answer)No ha habido cambios en su vida como viajes, hospitalizaciones, cirujías o diagnosticos recientes
+{'bleu': 0.0, 'precisions': [0.2857142857142857, 0.0], 'brevity_penalty': 0.27645304662956444, 'length_ratio': 0.4375, 'translation_length': 7, 'reference_length': 16}
+
+-----------------------------------------
+(Q)-¿Sólo el stent? Y aparte de eso, ¿has tenido alguna otra hospitalización previa?
+(A)-(A)-Después de ello no ha vuelto a presentar síntomas de tener otro infarto. No ha habido cambios en su vida como viajes, hospitalizaciones, cirujías o diagnosticos recientes y no había tenido episodios parecidos a este con anterioridad
+(Real answer)No ha habido cambios en su vida como viajes, hospitalizaciones, cirujías o diagnosticos recientes
+{'bleu': 0.36454130828824455, 'precisions': [0.37209302325581395, 0.35714285714285715], 'brevity_penalty': 1.0, 'length_ratio': 2.6875, 'translation_length': 43, 'reference_length': 16}
+
+-----------------------------------------
+(Q)-Bien, ¿y algún antecedente familiar de algún cáncer o infarto?
+(A)-El padre del paciente murió de un ataque al corazón a los 60 años
+(Real answer)El padre del paciente murió de un ataque al corazón a los 60 años
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 14, 'reference_length': 14}
+
+-----------------------------------------
+(Q)-OK. ¿Y actualmente trabajas?
+(A)-I I I I
+(Real answer)trabaja como cajero
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.3333333333333333, 'translation_length': 4, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-OK. ¿Y la falta de aliento ha estado afectando tu rutina diaria en casa o en el trabajo?
+(A)-El paciente se presenta con una historia de dos meses de disnea de esfuerzo progresiva y ortopnea, que ha estado afectando a su rutina
+(Real answer)ha estado afectando a su rutina
+{'bleu': 0.22360679774997894, 'precisions': [0.24, 0.20833333333333334], 'brevity_penalty': 1.0, 'length_ratio': 4.166666666666667, 'translation_length': 25, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-Vale. Y en casa, ¿actualmente vives con alguien o vives solo?
+(A)-Vive solo en un apartamento
+(Real answer)vive solo en un apartamento
+{'bleu': 0.7745966692414834, 'precisions': [0.8, 0.75], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 5, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK, ¿y vives en un apartamento o en una casa?
+(A)-Vive solo en un apartamento
+(Real answer)en un apartamento
+{'bleu': 0.5477225575051662, 'precisions': [0.6, 0.5], 'brevity_penalty': 1.0, 'length_ratio': 1.6666666666666667, 'translation_length': 5, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-OK, ¿y hay alguna exposición como polvo o moho o amianto en el ambiente de su casa?
+(A)-No se menciona en el historial médico
+(Real answer)No parece haber estado expuesto a la tuberculosis, al polvo, moho, ni a humos
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 0.23965103644177574, 'length_ratio': 0.4117647058823529, 'translation_length': 7, 'reference_length': 17}
+
+-----------------------------------------
+(Q)-OK. ¿Y actualmente fumas?
+(A)-Antes fumaba 10 cigarrillos al día durante 40 años
+(Real answer)Antes fumaba 10 cigarrillos al día durante 40 años
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 9, 'reference_length': 9}
+
+-----------------------------------------
+(Q)-Vale, ¿y consumes alguna droga recreativa como la marihuana?
+(A)-No consume drogas ni alcohol
+(Real answer)No consume drogas
+{'bleu': 0.5477225575051662, 'precisions': [0.6, 0.5], 'brevity_penalty': 1.0, 'length_ratio': 1.6666666666666667, 'translation_length': 5, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-OK. ¿Algo de alcohol?
+(A)-No consume drogas ni alcohol
+(Real answer)No consume drogas ni alcohol
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 5, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK. Y en cuanto a tu rutina diaria, ¿sientes que haces 3 comidas al día, una dieta bien equilibrada?
+(A)-No ha habido cambios en su vida como viajes, hospitalizaciones, cirujías o diagnosticos recientes y no había tenido episodios parecidos a este con anterioridad. No consume drogas ni alcohol. Su dieta no es equilibrada
+(Real answer)Su dieta no es equilibrada
+{'bleu': 0.11926756083217402, 'precisions': [0.13157894736842105, 0.10810810810810811], 'brevity_penalty': 1.0, 'length_ratio': 7.6, 'translation_length': 38, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-Vale, ¿y qué hay del ejercicio? ¿Cree que tus niveles de ejercicio o de actividad han bajado en los últimos dos meses?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Bien, ¿hay alguna otra pregunta o preocupación que tenga o algo que se me haya pasado preguntarte hoy?
+(A)-I I I I
+(Real answer)N
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 0.36787944117144233, 'length_ratio': 0.5, 'translation_length': 4, 'reference_length': 8}
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                 17 |  0.882353 |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  0 |  0        |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 44 |  0.40842  |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 61 |  0.5405   |
++------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 10
+Información al paciente: Hombre de mediana edad que vive con su mujer en un condominio. Trabaja como agente inmobiliario.
+
+La queja principal: El paciente ha estado experimentando dolor en su hombro izquierdo (concretamente en la parte delantera) durante los últimos 5 días que ha empeorado progresivamente y ha limitado su rango de movimiento y la capacidad de hacer actividades por encima de la cabeza. También ha impedido que el paciente duerma sobre el lado izquierdo, ya que le duele más por la noche. Le duele al abducir el brazo, siendo peor en los 60-120 grados, la rotación interna también causa dolor. Solo ha mejorado al dejar de hacer esfuerzos, llegando a tener una intensidad de 2/10 en comparación a cuando empeora, que es de 7/10. El paciente ha estado acudiendo al gimnasio con más frecuencia en los últimos meses, donde hace levantamiento de pesas (ha aumentado el peso que levanta en las dos últimas semanas). El dolor no se irradia y no ha notado ningún enrojecimiento o hinchazón de los tejidos blandos, ni siente entumecimiento u hormigueo. Tampoco padece fiebre, sudores nocturnos o escalofríos. No ha tenido erupciones ni cambios en la piel, tampoco dolores en otras articulaciones. No ha tenido dolor en el pecho ni dificultad para respirar, tampoco infecciones recientes o secreción nasal, dolor de garganta ni tampoco tos. No presenta náuseas o vómitos, ni cambios en sus hábitos intestinales, dolor abdominal, ni tampoco problemas urinarios.
+
+Antecedentes médicos personales: El paciente está generalmente sano, con la excepción de una lesión por sobreuso al jugar al tenis en el mismo hombro hace un par de años. No ha llegado a tener traumatismo en el hombro. El paciente toma Advil ocasionalmente para aliviar el dolor. No presenta alergias a medicamentos. El paciente no ha tenido cirugías ni hospitalizaciones previas. Bebe alcohol ocasionalmente, pero no consume drogas ni fuma.
+
+Historial médico familiar: No proporcionado
+
+Todos los diagnósticos posibles: 
+1. Desgarro del manguito rotador
+2. Síndrome de pinzamiento del manguito rotador
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Ecografía del hombro izquierdo
+2. Radiografía
+3. Resonancia magnética
+
+-----------------------------------------
+(Q)-Buenos días, señor. ¿En qué puedo ayudarle?
+(A)-El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días
+(Real answer)ha estado experimentando dolor en su hombro izquierdo
+{'bleu': 0.5163977794943222, 'precisions': [0.5333333333333333, 0.5], 'brevity_penalty': 1.0, 'length_ratio': 1.875, 'translation_length': 15, 'reference_length': 8}
+
+-----------------------------------------
+(Q)-OK y cuando, ¿cuándo empezo este dolor?
+(A)-El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días
+(Real answer)durante los últimos 5 días
+{'bleu': 0.30860669992418377, 'precisions': [0.3333333333333333, 0.2857142857142857], 'brevity_penalty': 1.0, 'length_ratio': 3.0, 'translation_length': 15, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-Bien, ¿tuvo algún traumatismo en el hombro, alguna lesión o desencadenante que pudiera haber causado el dolor?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Vale, cuando estaba levantando pesas hace unos días, ¿hubo algún episodio en el que el dolor apareciera de forma aguda, en el que empeorara inmediatamente?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Oh OK, pero si, estaba progresando y luego empeoró con el levantamiento de pesas. Eso parece.
+(A)-El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días que ha empeorado progresivamente y ha limitado su rango de movimiento
+(Real answer)I
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 6.5, 'translation_length': 26, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-Bien, veo un dolor en el hombro izquierdo, ¿siente el dolor en la parte delantera, en los lados o en la espalda?
+(A)-(A)-El paciente ha estado experimentando dolor en su hombro izquierdo (concretamente en la parte delantera) durante los últimos 5 días
+(Real answer)en la parte delantera
+{'bleu': 0.1414213562373095, 'precisions': [0.16, 0.125], 'brevity_penalty': 1.0, 'length_ratio': 6.25, 'translation_length': 25, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-OK, ¿siente que se irradia a algún otro lugar?
+(A)-No se irradia y no ha notado ningún enrojecimiento o hinchazón de los tejidos blandos, ni siente entumecimiento u hormigueo
+(Real answer)El dolor no se irradia
+{'bleu': 0.08451542547285168, 'precisions': [0.14285714285714285, 0.05], 'brevity_penalty': 1.0, 'length_ratio': 4.2, 'translation_length': 21, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK. ¿Y podría describir el carácter o la calidad del dolor? ¿Es agudo, o es una llave?
+(A)-El dolor ha empeorado progresivamente y ha limitado su rango de movimiento y la capacidad de hacer actividades por encima de la cabeza
+(Real answer)llegando a tener una intensidad de 2/10 en comparación a cuando empeora, que es de 7/10
+{'bleu': 0.0, 'precisions': [0.08695652173913043, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0952380952380953, 'translation_length': 23, 'reference_length': 21}
+
+-----------------------------------------
+(Q)-OK.
+(A)-I I I I
+(Real answer)I
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 4, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-OK, ¿y ha habido algo que haya empeorado el dolor?
+(A)-El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días que ha empeorado progresivamente
+(Real answer)Le duele al abducir el brazo
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 3.1666666666666665, 'translation_length': 19, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK, ¿y ha hecho algo que lo haya mejorado?
+(A)-- Solo ha mejorado al dejar de hacer esfuerzos, llegando a tener una intensidad de 2/10 en comparación a cuando empeora, que es de 7/10
+(Real answer)Solo ha mejorado al dejar de hacer esfuerzos
+{'bleu': 0.24538755828982212, 'precisions': [0.25806451612903225, 0.23333333333333334], 'brevity_penalty': 1.0, 'length_ratio': 3.875, 'translation_length': 31, 'reference_length': 8}
+
+-----------------------------------------
+(Q)-OK, entonces duerme sobre los otros del lado derecho.
+(A)-El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días
+(Real answer)ha impedido que el paciente duerma sobre el lado izquierdo
+{'bleu': 0.0, 'precisions': [0.2, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.5, 'translation_length': 15, 'reference_length': 10}
+
+-----------------------------------------
+(Q)-Bien, ¿cuál diría que es la severidad del dolor en una escala del 1 al 10?
+(A)-El dolor ha llegado a tener una intensidad de 7/10 en comparación a cuando empeora, que es de 2/10
+(Real answer)llegando a tener una intensidad de 2/10 en comparación a cuando empeora, que es de 7/10
+{'bleu': 0.8297022339981068, 'precisions': [0.8333333333333334, 0.8260869565217391], 'brevity_penalty': 1.0, 'length_ratio': 1.1428571428571428, 'translation_length': 24, 'reference_length': 21}
+
+-----------------------------------------
+(Q)-OK, uh, y um. ¿Hace algún tipo de actividad repetitiva por encima de la cabeza? ¿Como jugar al baloncesto o levantar cosas por encima de la cabeza en el gimnasio?
+(A)-El paciente ha estado acudiendo al gimnasio con más frecuencia en los últimos meses, donde hace levantamiento de pesas
+(Real answer)N
+{'bleu': 0.0, 'precisions': [0.05, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 2.857142857142857, 'translation_length': 20, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Vale, ¿una lesión previa por sobrecarga en el hombro izquierdo?
+(A)-Sí, el paciente tuvo una lesión por sobreuso al jugar al tenis en el mismo hombro hace un par de años
+(Real answer)está generalmente sano, con la excepción de una lesión por sobreuso al jugar al tenis en el mismo hombro hace un par de años
+{'bleu': 0.6888953944064473, 'precisions': [0.8181818181818182, 0.7619047619047619], 'brevity_penalty': 0.8725252928694237, 'length_ratio': 0.88, 'translation_length': 22, 'reference_length': 25}
+
+-----------------------------------------
+(Q)-OK, y uh. ¿Ha tenido algún traumatismo en el hombro?
+(A)-No se menciona en el historial médico
+(Real answer)No ha llegado a tener traumatismo en el hombro
+{'bleu': 0.2008407546162878, 'precisions': [0.42857142857142855, 0.16666666666666666], 'brevity_penalty': 0.751477293075286, 'length_ratio': 0.7777777777777778, 'translation_length': 7, 'reference_length': 9}
+
+-----------------------------------------
+(Q)-OK, ¿ha tenido fiebre o escalofríos?
+(A)-No ha tenido fiebre, sudores nocturnos o escalofríos
+(Real answer)Tampoco padece fiebre, sudores nocturnos o escalofríos
+{'bleu': 0.6454972243679028, 'precisions': [0.6666666666666666, 0.625], 'brevity_penalty': 1.0, 'length_ratio': 1.125, 'translation_length': 9, 'reference_length': 8}
+
+-----------------------------------------
+(Q)-¿Ha tenido sudores nocturnos?
+(A)-No ha tenido fiebre, sudores nocturnos o escalofríos
+(Real answer)Tampoco padece fiebre, sudores nocturnos o escalofríos
+{'bleu': 0.6454972243679028, 'precisions': [0.6666666666666666, 0.625], 'brevity_penalty': 1.0, 'length_ratio': 1.125, 'translation_length': 9, 'reference_length': 8}
+
+-----------------------------------------
+(Q)-Bien, ¿ha tenido alguna erupción cutánea o cambios en la piel?
+(A)-No ha tenido erupciones ni cambios en la piel
+(Real answer)No ha tenido erupciones ni cambios en la piel
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 9, 'reference_length': 9}
+
+-----------------------------------------
+(Q)-OK, ¿así que incluso sobre el área no ha notado ningún enrojecimiento o hinchazón de los tejidos blandos?
+(A)-No ha notado ningún enrojecimiento o hinchazón de los tejidos blandos
+(Real answer)no ha notado ningún enrojecimiento o hinchazón de los tejidos blandos
+{'bleu': 0.9045340337332909, 'precisions': [0.9090909090909091, 0.9], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 11, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-OK. ¿Ha tenido algún dolor en el pecho?
+(A)-No ha tenido dolor en el pecho ni dificultad para respirar
+(Real answer)No ha tenido dolor en el pecho
+{'bleu': 0.6179143806533247, 'precisions': [0.6363636363636364, 0.6], 'brevity_penalty': 1.0, 'length_ratio': 1.5714285714285714, 'translation_length': 11, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿y alguna dificultad para respirar?
+(A)-No ha tenido dolor en el pecho ni dificultad para respirar
+(Real answer)No ha tenido dolor en el pecho ni dificultad para respirar
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 11, 'reference_length': 11}
+
+-----------------------------------------
+(Q)-OK, ¿ha tenido dolores y alguna otra articulación?
+(A)-No se menciona en el historial médico
+(Real answer)tampoco dolores en otras articulaciones
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.4, 'translation_length': 7, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK Y. Um, ¿Ha tenido alguna infección reciente o síntomas como secreción nasal o dolor de garganta o incluso tos?
+(A)-No se menciona en el historial médico
+(Real answer)tampoco infecciones recientes o secreción nasal, dolor de garganta ni tampoco tos
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 0.42437284567694994, 'length_ratio': 0.5384615384615384, 'translation_length': 7, 'reference_length': 13}
+
+-----------------------------------------
+(Q)-OK, ¿y alguna náusea o vómito?
+(A)-No presenta náuseas o vómitos
+(Real answer)No presenta náuseas o vómitos
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 5, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-OK. Y um. ¿Cómo ha sido su sueño estas dos últimas noches? ¿Mencionó que no ha podido acostarse sobre su lado izquierdo?
+(A)-Le duele más por la noche
+(Real answer)ha impedido que el paciente duerma sobre el lado izquierdo
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 0.513417119032592, 'length_ratio': 0.6, 'translation_length': 6, 'reference_length': 10}
+
+-----------------------------------------
+(Q)-Vale, ¿entonces le duele más por la noche?
+(A)-Le duele más por la noche
+(Real answer)le duele más por la noche
+{'bleu': 0.816496580927726, 'precisions': [0.8333333333333334, 0.8], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 6, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK. ¿Ha tenido alguna debilidad? ¿Siente que tiene menos fuerza en el brazo?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, y que tal el rango de movimiento. ¿Siente que puede levantar el brazo izquierdo para rascarse la cabeza y la espalda?
+(A)-La queja principal: El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días que ha empeorado progresivamente y ha limitado su rango de movimiento y la capacidad de hacer actividades por encima de la cabeza
+(Real answer)N
+{'bleu': 0.0, 'precisions': [0.024390243902439025, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 5.857142857142857, 'translation_length': 41, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, ¿entonces suena como que el rango de movimiento esta disminuido?
+(A)-El dolor ha empeorado progresivamente y ha limitado su rango de movimiento y la capacidad de hacer actividades por encima de la cabeza
+(Real answer)Le duele al abducir el brazo, siendo peor en los 60-120 grados, la rotación interna también causa dolor
+{'bleu': 0.0, 'precisions': [0.08695652173913043, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0454545454545454, 'translation_length': 23, 'reference_length': 22}
+
+-----------------------------------------
+(Q)-OK, ¿y ha tenido alguna sensación alterada de sus brazos como entumecimiento u hormigueo?
+(A)-No siente entumecimiento u hormigueo
+(Real answer)no ha notado ningún enrojecimiento o hinchazón de los tejidos blandos, ni siente entumecimiento u hormigueo
+{'bleu': 0.07026982445838341, 'precisions': [0.8, 0.75], 'brevity_penalty': 0.09071795328941251, 'length_ratio': 0.29411764705882354, 'translation_length': 5, 'reference_length': 17}
+
+-----------------------------------------
+(Q)-OK. Um y ¿ha tenido algún cambio en sus hábitos intestinales como estreñimiento o diarrea?
+(A)-No se menciona en el historial médico
+(Real answer)No presenta náuseas o vómitos, ni cambios en sus hábitos intestinales
+{'bleu': 0.0, 'precisions': [0.2857142857142857, 0.0], 'brevity_penalty': 0.48954165955695317, 'length_ratio': 0.5833333333333334, 'translation_length': 7, 'reference_length': 12}
+
+-----------------------------------------
+(Q)-¿Ha tenido algún dolor abdominal?
+(A)-No se menciona en el historial médico
+(Real answer)No presenta náuseas o vómitos, ni cambios en sus hábitos intestinales, dolor abdominal, ni tampoco problemas urinarios
+{'bleu': 0.0, 'precisions': [0.2857142857142857, 0.0], 'brevity_penalty': 0.15611804531597107, 'length_ratio': 0.35, 'translation_length': 7, 'reference_length': 20}
+
+-----------------------------------------
+(Q)-¿Y ha tenido algún problema urinario?
+(A)-No presenta náuseas o vómitos, ni cambios en sus hábitos intestinales, dolor abdominal, ni tampoco problemas urinarios
+(Real answer)No presenta náuseas o vómitos, ni cambios en sus hábitos intestinales, dolor abdominal, ni tampoco problemas urinarios
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 20, 'reference_length': 20}
+
+-----------------------------------------
+(Q)-Bien, ¿y en el pasado le han diagnosticado alguna enfermedad?
+(A)-No se menciona en el historial médico
+(Real answer)está generalmente sano, con la excepción de una lesión por sobreuso al jugar al tenis en el mismo hombro hace un par de años
+{'bleu': 0.01667758310569589, 'precisions': [0.2857142857142857, 0.16666666666666666], 'brevity_penalty': 0.07642628699076812, 'length_ratio': 0.28, 'translation_length': 7, 'reference_length': 25}
+
+-----------------------------------------
+(Q)-Bien, ¿tiene alergia a algún medicamento?
+(A)-No presenta alergias a medicamentos
+(Real answer)No presenta alergias a medicamentos
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 5, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-Bien, ¿toma algún medicamento con regularidad?
+(A)-No se menciona en el historial médico
+(Real answer)toma Advil ocasionalmente para aliviar el dolor
+{'bleu': 0.0, 'precisions': [0.14285714285714285, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, yo y ¿ha tenido alguna hospitalización o cirugías previas?
+(A)-(A)-El paciente no ha tenido cirugías ni hospitalizaciones previas
+(Real answer)no ha tenido cirugías ni hospitalizaciones previas
+{'bleu': 0.5640760748177662, 'precisions': [0.5833333333333334, 0.5454545454545454], 'brevity_penalty': 1.0, 'length_ratio': 1.7142857142857142, 'translation_length': 12, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK, y ¿podría contarme un poco sobre su situación de vida actual, como con quién está viviendo, y dónde?
+(A)-El paciente es un hombre de mediana edad que vive con su mujer en un condominio
+(Real answer)vive con su mujer en un condominio
+{'bleu': 0.41833001326703784, 'precisions': [0.4375, 0.4], 'brevity_penalty': 1.0, 'length_ratio': 2.2857142857142856, 'translation_length': 16, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-Vale, ¿y trabaja actualmente?
+(A)-(A)-Trabaja como agente inmobiliario
+(Real answer)Trabaja como agente inmobiliario
+{'bleu': 0.3779644730092272, 'precisions': [0.42857142857142855, 0.3333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 1.75, 'translation_length': 7, 'reference_length': 4}
+
+-----------------------------------------
+(Q)-OK, uh, ¿y bebe alcohol?
+(A)-(A)-Bebe alcohol ocasionalmente, pero no consume drogas ni fuma
+(Real answer)Bebe alcohol ocasionalmente
+{'bleu': 0.11322770341445958, 'precisions': [0.15384615384615385, 0.08333333333333333], 'brevity_penalty': 1.0, 'length_ratio': 4.333333333333333, 'translation_length': 13, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-No. OK. ¿Y fumar cigarrillos o cannabis?
+(A)-No se menciona en el historial médico
+(Real answer)no consume drogas ni fuma
+{'bleu': 0.0, 'precisions': [0.0, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 1.4, 'translation_length': 7, 'reference_length': 5}
+
+-----------------------------------------
+(Q)-¿Consume alguna droga recreativa o lo ha hecho en el pasado?
+(A)-No consume drogas ni fuma
+(Real answer)no consume drogas
+{'bleu': 0.316227766016838, 'precisions': [0.4, 0.25], 'brevity_penalty': 1.0, 'length_ratio': 1.6666666666666667, 'translation_length': 5, 'reference_length': 3}
+
+-----------------------------------------
+(Q)-OK. Um. Y entonces la siguiente parte, solo para el examen fisico. Entonces, ¿tiene dolor con el hombro en abducción?
+(A)-Le duele al abducir el brazo, siendo peor en los 60-120 grados
+(Real answer)Le duele al abducir el brazo
+{'bleu': 0.3779644730092273, 'precisions': [0.4, 0.35714285714285715], 'brevity_penalty': 1.0, 'length_ratio': 2.5, 'translation_length': 15, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK, ¿hay algún dolor que sea como partes de ese rango de movimiento que sean más dolorosas para usted?
+(A)-Le duele al abducir el brazo, siendo peor en los 60-120 grados
+(Real answer)N
+{'bleu': 0.0, 'precisions': [0.13333333333333333, 0.0], 'brevity_penalty': 1.0, 'length_ratio': 2.142857142857143, 'translation_length': 15, 'reference_length': 7}
+
+-----------------------------------------
+(Q)-OK. y. si tu brazo esta extendido y tu pulgar apuntando hacia abajo asi que tu brazo esta rotado internamente ¿eso te da dolor?
+(A)-La rotación interna también causa dolor
+(Real answer)la rotación interna también causa dolor
+{'bleu': 0.816496580927726, 'precisions': [0.8333333333333334, 0.8], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 6, 'reference_length': 6}
+
+-----------------------------------------
+(Q)-OK. OK, entonces suena como un test de Jobes positivo y un test de Neer positivo así como un arco doloroso para tu hombro. ¿Y hay dolor a la palpación?
+(A)-No se menciona en el historial médico
+(Real answer)N
+{'bleu': 1.0, 'precisions': [1.0, 1.0], 'brevity_penalty': 1.0, 'length_ratio': 1.0, 'translation_length': 7, 'reference_length': 7}
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                  7 |  0.571429 |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  2 |  0.5      |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 38 |  0.387288 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 47 |  0.419509 |
++------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Hombre de mediana edad que vive con su mujer en un condominio. Trabaja como agente inmobiliario.
+
+La queja principal: El paciente ha estado experimentando dolor en su hombro izquierdo (concretamente en la parte delantera) durante los últimos 5 días que ha empeorado progresivamente y ha limitado su rango de movimiento y la capacidad de hacer actividades por encima de la cabeza. También ha impedido que el paciente duerma sobre el lado izquierdo, ya que le duele más por la noche. Le duele al abducir el brazo, siendo peor en los 60-120 grados, la rotación interna también causa dolor. Solo ha mejorado al dejar de hacer esfuerzos, llegando a tener una intensidad de 2/10 en comparación a cuando empeora, que es de 7/10. El paciente ha estado acudiendo al gimnasio con más frecuencia en los últimos meses, donde hace levantamiento de pesas (ha aumentado el peso que levanta en las dos últimas semanas). El dolor no se irradia y no ha notado ningún enrojecimiento o hinchazón de los tejidos blandos, ni siente entumecimiento u hormigueo. Tampoco padece fiebre, sudores nocturnos o escalofríos. No ha tenido erupciones ni cambios en la piel, tampoco dolores en otras articulaciones. No ha tenido dolor en el pecho ni dificultad para respirar, tampoco infecciones recientes o secreción nasal, dolor de garganta ni tampoco tos. No presenta náuseas o vómitos, ni cambios en sus hábitos intestinales, dolor abdominal, ni tampoco problemas urinarios.
+
+Antecedentes médicos personales: El paciente está generalmente sano, con la excepción de una lesión por sobreuso al jugar al tenis en el mismo hombro hace un par de años. No ha llegado a tener traumatismo en el hombro. El paciente toma Advil ocasionalmente para aliviar el dolor. No presenta alergias a medicamentos. El paciente no ha tenido cirugías ni hospitalizaciones previas. Bebe alcohol ocasionalmente, pero no consume drogas ni fuma.
+
+Historial médico familiar: No proporcionado
+
+Todos los diagnósticos posibles: 
+1. Desgarro del manguito rotador
+2. Síndrome de pinzamiento del manguito rotador
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Ecografía del hombro izquierdo
+2. Radiografía
+3. Resonancia magnética
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-Buenos días, señor. ¿En qué puedo ayudarle?
+ (A)-El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días
+
+(Q)-OK y cuando, ¿cuándo empezo este dolor?
+ (A)-El paciente ha estado experimentando dolor en su hombro izquierdo durante los últimos 5 días
+
+(Q)-Bien, ¿tuvo algún traumatismo en el hombro, alguna lesión o desencadenante que pudiera haber causado el dolor?
+ (A)-No se menciona en el historial médico
+
+(Q)-Vale, cuando estaba levantando pesas hace unos días, ¿hubo algún episodio en el que el dolor apareciera de forma aguda, en el que empeorara inmediatamente?
+ (A)-No se menciona en el historial médico
+
+(Q)-OK.
+ (A)-I I I I
+
+(Q)-Bien, ¿cuál diría que es la severidad del dolor en una escala del 1 al 10?
+ (A)-El dolor ha llegado a tener una intensidad de 7/10 en comparación a cuando empeora, que es de 2/10
+
+(Q)-Vale, ¿una lesión previa por sobrecarga en el hombro izquierdo?
+ (A)-Sí, el paciente tuvo una lesión por sobreuso al jugar al tenis en el mismo hombro hace un par de años
+
+(Q)-OK, ¿ha tenido fiebre o escalofríos?
+ (A)-No ha tenido fiebre, sudores nocturnos o escalofríos
+
+(Q)-¿Ha tenido sudores nocturnos?
+ (A)-No ha tenido fiebre, sudores nocturnos o escalofríos
+
+(Q)-Bien, ¿ha tenido alguna erupción cutánea o cambios en la piel?
+ (A)-No ha tenido erupciones ni cambios en la piel
+
+(Q)-OK, ¿así que incluso sobre el área no ha notado ningún enrojecimiento o hinchazón de los tejidos blandos?
+ (A)-No ha notado ningún enrojecimiento o hinchazón de los tejidos blandos
+
+(Q)-OK. ¿Ha tenido algún dolor en el pecho?
+ (A)-No ha tenido dolor en el pecho ni dificultad para respirar
+
+(Q)-OK, ¿y alguna dificultad para respirar?
+ (A)-No ha tenido dolor en el pecho ni dificultad para respirar
+
+(Q)-OK, ¿y alguna náusea o vómito?
+ (A)-No presenta náuseas o vómitos
+
+(Q)-Vale, ¿entonces le duele más por la noche?
+ (A)-Le duele más por la noche
+
+(Q)-OK. ¿Ha tenido alguna debilidad? ¿Siente que tiene menos fuerza en el brazo?
+ (A)-No se menciona en el historial médico
+
+(Q)-¿Y ha tenido algún problema urinario?
+ (A)-No presenta náuseas o vómitos, ni cambios en sus hábitos intestinales, dolor abdominal, ni tampoco problemas urinarios
+
+(Q)-Bien, ¿tiene alergia a algún medicamento?
+ (A)-No presenta alergias a medicamentos
+
+(Q)-OK, yo y ¿ha tenido alguna hospitalización o cirugías previas?
+ (A)-(A)-El paciente no ha tenido cirugías ni hospitalizaciones previas
+
+(Q)-OK, y ¿podría contarme un poco sobre su situación de vida actual, como con quién está viviendo, y dónde?
+ (A)-El paciente es un hombre de mediana edad que vive con su mujer en un condominio
+
+(Q)-Vale, ¿y trabaja actualmente?
+ (A)-(A)-Trabaja como agente inmobiliario
+
+(Q)-¿Consume alguna droga recreativa o lo ha hecho en el pasado?
+ (A)-No consume drogas ni fuma
+
+(Q)-OK. Um. Y entonces la siguiente parte, solo para el examen fisico. Entonces, ¿tiene dolor con el hombro en abducción?
+ (A)-Le duele al abducir el brazo, siendo peor en los 60-120 grados
+
+(Q)-OK. y. si tu brazo esta extendido y tu pulgar apuntando hacia abajo asi que tu brazo esta rotado internamente ¿eso te da dolor?
+ (A)-La rotación interna también causa dolor
+
+(Q)-OK. OK, entonces suena como un test de Jobes positivo y un test de Neer positivo así como un arco doloroso para tu hombro. ¿Y hay dolor a la palpación?
+ (A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++----------------------------------------------------+--------------------+-----------+
+|                                                    |   Num of questions |   F-Score |
++====================================================+====================+===========+
+| Minimum bleu for adding the answer in the context: |                0.1 |  0        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't appear in the text:           |                4   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:            |                1   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that have answer                         |               27   |  0.317521 |
++----------------------------------------------------+--------------------+-----------+
+| Total                                              |               32   |  0.424159 |
++----------------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-OK, ¿hay algo que lo empeore?
+(A)-Tocarlo lo empeora, así como el vómito de hace unos días
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-¿Ha notado alguna fiebre últimamente?
+(A)-El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días
+
+(Q)-OK, OK, ¿y qué fue lo que específicamente le hizo venir hoy al departamento de emergencias?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Y se me olvidaba preguntar, ¿ha notado algún cambio en sus hábitos intestinales?
+(A)-El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días
+
+(Q)-Bien, voy a hacerte algunas preguntas sobre tu salud en general. ¿Tienes alguna enfermedad crónica por la que acudas a tu médico de cabecera, o a cualquier otro médico?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-¿Y ha estado bien controlada últimamente?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-Vale, ¿todavía tiene el apéndice?
+(A)-(A)-Aún conserva el apéndice
+
+(Q)-¿Y tiene alguna alergia?
+(A)-No tiene alergias, pero a veces se congestiona en otoño
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++----------------------------------------------------+--------------------+-----------+
+|                                                    |   Num of questions |   F-Score |
++====================================================+====================+===========+
+| Minimum bleu for adding the answer in the context: |                0.2 |  0        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't appear in the text:           |                8   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:            |                2   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that have answer                         |               54   |  0.323956 |
++----------------------------------------------------+--------------------+-----------+
+| Total                                              |               64   |  0.429588 |
++----------------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-¿Ha notado alguna fiebre últimamente?
+(A)-El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días
+
+(Q)-¿Ha notado alguna fiebre últimamente?
+(A)-El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días
+
+(Q)-OK, OK, ¿y qué fue lo que específicamente le hizo venir hoy al departamento de emergencias?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-OK, OK, ¿y qué fue lo que específicamente le hizo venir hoy al departamento de emergencias?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Bien, voy a hacerte algunas preguntas sobre tu salud en general. ¿Tienes alguna enfermedad crónica por la que acudas a tu médico de cabecera, o a cualquier otro médico?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-Bien, voy a hacerte algunas preguntas sobre tu salud en general. ¿Tienes alguna enfermedad crónica por la que acudas a tu médico de cabecera, o a cualquier otro médico?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-¿Y ha estado bien controlada últimamente?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-¿Y ha estado bien controlada últimamente?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-Vale, ¿todavía tiene el apéndice?
+(A)-(A)-Aún conserva el apéndice
+
+(Q)-Vale, ¿todavía tiene el apéndice?
+(A)-Aún conserva el apéndice
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++----------------------------------------------------+--------------------+-----------+
+|                                                    |   Num of questions |   F-Score |
++====================================================+====================+===========+
+| Minimum bleu for adding the answer in the context: |                0.3 |  0        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't appear in the text:           |               12   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:            |                3   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that have answer                         |               81   |  0.319188 |
++----------------------------------------------------+--------------------+-----------+
+| Total                                              |               96   |  0.425565 |
++----------------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-¿Ha notado alguna fiebre últimamente?
+(A)-El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días
+
+(Q)-¿Ha notado alguna fiebre últimamente?
+(A)-El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días
+
+(Q)-¿Ha notado alguna fiebre últimamente?
+(A)-El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días
+
+(Q)-OK, OK, ¿y qué fue lo que específicamente le hizo venir hoy al departamento de emergencias?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-OK, OK, ¿y qué fue lo que específicamente le hizo venir hoy al departamento de emergencias?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-OK, OK, ¿y qué fue lo que específicamente le hizo venir hoy al departamento de emergencias?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Bien, voy a hacerte algunas preguntas sobre tu salud en general. ¿Tienes alguna enfermedad crónica por la que acudas a tu médico de cabecera, o a cualquier otro médico?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-Bien, voy a hacerte algunas preguntas sobre tu salud en general. ¿Tienes alguna enfermedad crónica por la que acudas a tu médico de cabecera, o a cualquier otro médico?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-Bien, voy a hacerte algunas preguntas sobre tu salud en general. ¿Tienes alguna enfermedad crónica por la que acudas a tu médico de cabecera, o a cualquier otro médico?
+(A)-El paciente padece diabetes de tipo 2, generalmente bien controlada
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-Vale, ¿todavía tiene el apéndice?
+(A)-(A)-Aún conserva el apéndice
+
+(Q)-Vale, ¿todavía tiene el apéndice?
+(A)-Aún conserva el apéndice
+
+(Q)-Vale, ¿todavía tiene el apéndice?
+(A)-Aún conserva el apéndice
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++----------------------------------------------------+--------------------+-----------+
+|                                                    |   Num of questions |   F-Score |
++====================================================+====================+===========+
+| Minimum bleu for adding the answer in the context: |                0.4 |  0        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't appear in the text:           |               14   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:            |                4   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that have answer                         |              110   |  0.271882 |
++----------------------------------------------------+--------------------+-----------+
+| Total                                              |              128   |  0.374273 |
++----------------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++----------------------------------------------------+--------------------+-----------+
+|                                                    |   Num of questions |   F-Score |
++====================================================+====================+===========+
+| Minimum bleu for adding the answer in the context: |                0.4 |  0        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't appear in the text:           |                3   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:            |                1   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that have answer                         |               28   |  0.321837 |
++----------------------------------------------------+--------------------+-----------+
+| Total                                              |               32   |  0.406608 |
++----------------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-¿Qué medicación toma actualmente?
+(A)-El paciente toma metformina
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++----------------------------------------------------+--------------------+-----------+
+|                                                    |   Num of questions |   F-Score |
++====================================================+====================+===========+
+| Minimum bleu for adding the answer in the context: |                0.5 |  0        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't appear in the text:           |                7   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:            |                2   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that have answer                         |               55   |  0.299474 |
++----------------------------------------------------+--------------------+-----------+
+| Total                                              |               64   |  0.397985 |
++----------------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-Buenos días, señor. ¿Tengo entendido que ha estado experimentando dolor abdominal?
+(A)-El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-Vale, y en cuanto a su estilo de vida, ¿vive aquí en la ciudad?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++----------------------------------------------------+--------------------+-----------+
+|                                                    |   Num of questions |   F-Score |
++====================================================+====================+===========+
+| Minimum bleu for adding the answer in the context: |                0.6 |  0        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't appear in the text:           |                9   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:            |                3   |  1        |
++----------------------------------------------------+--------------------+-----------+
+| Questions that have answer                         |               84   |  0.302256 |
++----------------------------------------------------+--------------------+-----------+
+| Total                                              |               96   |  0.389474 |
++----------------------------------------------------+--------------------+-----------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Contexto final: 
+Dado el siguiente texto:
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+ Responde únicamente extrayendo frases del texto. Responde con frases del texto completas siempre.
+ Responde lo más breve posible. 
+ Manten el tiempo verbal, forma y estructura de las frases del texto en las respuestas. No utilices los tiempos verbales de la conversación para responder.
+No respondas con un "Sí," , "Sí, eso es" , "No," .
+ Ejemplo:
+'''
+Dado el siguiente texto:
+"El paciente sufrió un accidente y desde hace 1 mes está con dolores en el codo. Tiene 20 años y vive con su familia. No presenta dolor de cabeza, oídos ni ojos."
+(Q)-¿Cuánto tiempo lleva con dolores?
+(A)-Desde hace 1 mes.
+(Q)-¿Vive solo?
+(A)-Vive con su familia.
+(Q)-¿Cuántos años tiene?
+(A)-20.
+(Q)-¿Tiene dolor en oídos u ojos?
+(A)-No presenta dolor de cabeza, oídos ni ojos.
+Si la pregunta es del tipo ¿Qué le trae aquí?,¿En qué puedo ayudarle?,¿Cómo está?,¿Qué te ocurre? Responde con la primera frase de la queja principal del paciente, omitiendo "La queja principal."
+Si la pregunta no tiene '¿'? responde con "I" . Ejemplo:
+'''
+(Q)-Voy a probar a extender tu muñeca.
+(A)-I
+(Q)-Buenos días.
+(A)-I
+'''
+Si no se puede responder a la pregunta con el texto, responde "No se menciona en el historial médico."
+ 
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-¿Puedes decirme dónde sientes más dolor?
+(A)-El dolor se localiza en el lado derecho, debajo del ombligo
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-Bien, ¿alguna vez ha tenido un dolor como este en el pasado?
+(A)-El paciente no había tenido episodios parecidos en el pasado
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-OK. Y durante los últimos tres días, ¿ha sido bastante constante? ¿Ha sido intermitente?
+(A)-No se menciona en el historial médico
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-¿Hay algo en lo que pueda pensar que le haya hecho sentir mejor?
+(A)-Descansar mejora levemente el dolor
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Vale, ¿fue sólo una vez?
+(A)-No se menciona en el historial médico
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-Um, ¿el dolor permaneció en ese mismo lugar o se movió a algún otro lugar?
+(A)-El dolor no se irradia
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Y ha tenido alguna cirugía en el pasado?
+(A)-El paciente no ha tenido cirugías en el pasado
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-¿Vive solo o con familia?
+(A)-Vive con su mujer y tiene 2 hijos
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Vale, es un gran jefe.
+(A)-I I I I
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+
+(Q)-Bien, ¿hay algo más que quiera mencionar hoy que no le haya preguntado o alguna otra pregunta que tenga?
+(A)-No se menciona en el historial médico
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+El número de la entrevista es: 18
+Información al paciente: Varon de mediana edad, jefe de producción en Fairbanks. Vive con su mujer y tiene 2 hijos.
+
+La queja principal: El paciente presenta desde hace tres días un dolor abdominal que ha ido empeorando. El dolor se localiza en el lado derecho, debajo del ombligo. El paciente también ha estado estreñido, hinchado, con temperatura alta, con náuseas y con calambres durante los últimos cinco días y sólo ha defecado hace dos días. Descansar mejora levemente el dolor y tocarlo lo empeora, así como el vómito de hace unos días. El dolor no se irradia. 
+
+Antecedentes médicos personales: El paciente no había tenido episodios parecidos en el pasado. Padece diabetes de tipo 2, generalmente bien controlada. El paciente toma metformina y no ha tenido cirugías en el pasado. Aún conserva el apéndice. No tiene alergias, pero a veces se congestiona en otoño. No ha estado en contacto con nadie enfermo ni ha viajado recientemente. Bebe de vez en cuando, no fuma ni consume otras sustancias.
+
+El historial médico familiar: La abuela del paciente murió de cáncer de mama. No hay antecedentes de problemas gastrointestinales.
+
+Todos los diagnósticos posibles: 
+1. Apendicitis
+2. Diverticulitis
+3. Estreñimiento
+4. Gastritis
+5. Gastroenteritis.
+
+Todos los posibles estudios específicos, evaluaciones y pruebas de laboratorio: 
+1. Análisis de sangre
+2. Tomografía computarizada
+3. Radiografía abdominal
+El número de la entrevista es: 13
+Información del paciente: La paciente es una mujer. Vive con su compañero de cuarto.
+
+Motivo de consulta: La paciente presenta náuseas persistentes, que empeoran con los malos olores y son más intensas por la mañana. Las náuseas han durado aproximadamente 9 días, con vómitos intermitentes una o dos veces al día durante este periodo. La paciente también refiere un aumento de la frecuencia urinaria, con necesidad de orinar cada dos horas, incluso por la noche. No presenta incontinencia urinaria ni dificultad para retener la orina. La paciente niega dolor al orinar. También comenta tener calambres en el estómago. No ha tenido síntomas gripales, dolor de cabeza o fiebre. Tampoco tiene tos, dolores musculares ni palpitaciones. Ha tomado cosas como jengibre para aliviar las náuseas pero no han sido de ayuda.
+
+Antecedentes médicos personales: La paciente no refiere enfermedades o cirugías significativas en el pasado. No toma medicación en la actualidad. La paciente tiene una alergia conocida al níquel, que le provoca erupciones cutáneas cuando lleva joyas no auténticas. No tiene alergias alimentarias ni medicamentosas. Socialmente, niega fumar, raramente consume alcohol y niega el uso de drogas ilícitas. La paciente es sexualmente activa con un novio, utiliza preservativos como método anticonceptivo debido a efectos adversos previos de los anticonceptivos. Tuvo su periodo por última vez hace 6 semanas, pese a que suele ser bastante regular.
+
+Antecedentes médicos familiares: El padre de la paciente tiene antecedentes de hipertensión arterial. No se han descrito otras condiciones médicas significativas en la familia.
+
+Posibles diagnósticos:
+1. Gastroenteritis.
+2. Infección de las vías urinarias (ITU).
+3. Embarazo.
+
+Posibles estudios específicos, evaluaciones y pruebas de laboratorio:
+1. Análisis de orina.
+2. Prueba de embarazo.
+3. Hemograma completo.
+4. Ecografía abdominal.
+5. Evaluación adicional de gastroenteritis.
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                  4 |  0.75     |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  4 |  0.5      |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 49 |  0.212177 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 57 |  0.270117 |
++------------------------------------------+--------------------+-----------++----------------------------------------------------+--------------------+
+|                                                    |   Type of variable |
++====================================================+====================+
+| Minimum bleu for adding the answer in the context: |                0.3 |
++----------------------------------------------------+--------------------+
+| Temperature for the chatGpt                        |                0   |
++----------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                  4 |  1        |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  4 |  0.5      |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 49 |  0.243244 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 57 |  0.314367 |
++------------------------------------------+--------------------+-----------++----------------------------------------------------+--------------------+
+|                                                    |   Type of variable |
++====================================================+====================+
+| Minimum bleu for adding the answer in the context: |                0.3 |
++----------------------------------------------------+--------------------+
+| Temperature for the chatGpt                        |                0   |
++----------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                  4 |  1        |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  4 |  0.5      |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 49 |  0.226678 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 57 |  0.300126 |
++------------------------------------------+--------------------+-----------++----------------------------------------------------+--------------------+
+|                                                    |   Type of variable |
++====================================================+====================+
+| Minimum bleu for adding the answer in the context: |                0.3 |
++----------------------------------------------------+--------------------+
+| Temperature for the chatGpt                        |                0   |
++----------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                  4 |  1        |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  4 |  0.5      |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 49 |  0.228178 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 57 |  0.301416 |
++------------------------------------------+--------------------+-----------++----------------------------------------------------+--------------------+
+|                                                    |   Type of variable |
++====================================================+====================+
+| Minimum bleu for adding the answer in the context: |                0.3 |
++----------------------------------------------------+--------------------+
+| Temperature for the chatGpt                        |                0   |
++----------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                 10 |  1        |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  8 |  0.5      |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 96 |  0.224702 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                114 |  0.31203  |
++------------------------------------------+--------------------+-----------++----------------------------------------------------+--------------------+
+|                                                    |   Type of variable |
++====================================================+====================+
+| Minimum bleu for adding the answer in the context: |               0.3  |
++----------------------------------------------------+--------------------+
+| Temperature for the chatGpt                        |               0.05 |
++----------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                  3 |  0.666667 |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  2 |  1        |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 27 |  0.338682 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 32 |  0.410763 |
++------------------------------------------+--------------------+-----------++----------------------------------------------------+--------------------+
+|                                                    |   Type of variable |
++====================================================+====================+
+| Minimum bleu for adding the answer in the context: |                0.3 |
++----------------------------------------------------+--------------------+
+| Temperature for the chatGpt                        |                0   |
++----------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
++------------------------------------------+--------------------+-----------+
+|                                          |   Num of questions |   F-Score |
++==========================================+====================+===========+
+| Questions that don't appear in the text: |                  4 |  0.5      |
++------------------------------------------+--------------------+-----------+
+| Questions that don't require an answer:  |                  4 |  1        |
++------------------------------------------+--------------------+-----------+
+| Questions that have answer               |                 56 |  0.374422 |
++------------------------------------------+--------------------+-----------+
+| Total                                    |                 64 |  0.421369 |
++------------------------------------------+--------------------+-----------++----------------------------------------------------+--------------------+
+|                                                    |   Type of variable |
++====================================================+====================+
+| Minimum bleu for adding the answer in the context: |               0.3  |
++----------------------------------------------------+--------------------+
+| Temperature for the chatGpt                        |               0.05 |
++----------------------------------------------------+--------------------+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
